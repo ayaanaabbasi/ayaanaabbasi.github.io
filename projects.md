@@ -4,7 +4,7 @@ Below are selected analytical and AI-focused projects that demonstrate technical
 
 ---
 
-##🚀 Startup VC Funding Dashboard
+#🚀 Startup VC Funding Dashboard
 
 Interactive data product analyzing 100k+ global VC funding rounds using Python & Streamlit.
 
