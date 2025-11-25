@@ -1,2 +1,4 @@
 # Welcome
-Site is under construction
+
+I’m a student exploring analytics, AI, and data-driven problem solving.
+This site highlights selected projects, experiments, and progress.
