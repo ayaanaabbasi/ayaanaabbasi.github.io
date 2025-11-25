@@ -4,31 +4,57 @@ Below are selected analytical and AI-focused projects that demonstrate technical
 
 ---
 
-## 1) Startup VC Funding Dashboard
+🚀 Startup VC Funding Dashboard
+
+Interactive data product analyzing 100k+ global VC funding rounds using Python & Streamlit.
+
+🔍 Problem
+
+Understanding where venture capital is flowing — geographically, by industry, and over time — requires transforming raw funding records into a clear, interactive data product.
+
+🎯 Approach
+
+Cleaned and explored 100k+ funding transactions
+
+Created high-signal visuals for trends, geographies, and industry patterns
+
+Built a dark-mode Streamlit dashboard with filters for:
+Year range • Industry • Country • Color theme
+
+Computed metrics such as:
+Total VC raised, total rounds, top industries, top countries
+
+📈 Key Insights
+
+The U.S. consistently dominates global VC flow
+
+Software + biotech receive the highest capital concentration
+
+Funding activity surges significantly post-2010
+
+Several mega-round outliers heavily skew total dollars
+
+🖥️ Deliverables
+
+startup_eda.ipynb — full EDA with commentary
+
+app.py — Streamlit dashboard
+
+startup_data/ — cleaned dataset
+
+README.md — full project documentation
+
+🧠 What I Learned
+
+Designing dashboards that reveal real business insights
+
+Managing large datasets and eliminating bias from outliers
+
+Balancing aesthetics with core usability principles in Streamlit
+
+Structuring data products that show both technical and strategic thinking
+
 <img src="/assets/img/Screenshot 2025-11-25 151714.png" alt="VC Investment Trends Dashboard Screenshot" width="100%" style="border-radius: 8px;">
-
-**Summary:**  
-Exploratory analysis of over 100k funding records to understand global venture capital patterns. Built an interactive dashboard examining trends by country, industry, year, and company.
-
-**Approach:**  
-- Cleaned & merged multi-source datasets  
-- Conducted exploratory analysis & modeling in Python  
-- Built and deployed a Streamlit dashboard  
-
-**Key Insights:**  
-- US dominates global VC funding  
-- Biotech and software lead by capital raised  
-- Early-stage rounds surged after 2010  
-
-**Deliverables:**  
-- EDA notebook  
-- Interactive dashboard  
-
-**What I Learned:**  
-- How to tell a coherent EDA story  
-- How to scope and ship a working dashboard
-
----
 
 ## 2) Travel Recommendation System (LLM-Based)
 
