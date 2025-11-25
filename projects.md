@@ -6,6 +6,7 @@ Below are selected analytical and AI-focused projects that demonstrate technical
 
 ## 1) Startup VC Funding Dashboard
 <img src="/assets/img/Screenshot 2025-11-25 151714.png" alt="VC Investment Trends Dashboard Screenshot" width="100%" style="border-radius: 8px;">
+
 **Summary:**  
 Exploratory analysis of over 100k funding records to understand global venture capital patterns. Built an interactive dashboard examining trends by country, industry, year, and company.
 
