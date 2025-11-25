@@ -1,3 +1,3 @@
 # About Me
 
-More coming soon.
+More to come soon.
