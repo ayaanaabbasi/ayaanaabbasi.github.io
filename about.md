@@ -1,11 +1,16 @@
-# About Me
+# Welcome
 
-I'm a student focused on analytics and AI with a mindset of continuous improvement. I enjoy identifying patterns, understanding how systems operate, and building solutions that address real problems.
+I’m a student focused on analytics, AI, and data-driven product development. I enjoy exploring problems that combine strategy, engineering, and real-world decision making.
 
-My interests include:
-- data analytics and visualization
-- machine learning and natural language processing
-- decision science
-- continuous personal growth
+This portfolio highlights selected work that demonstrates:
+- structured thinking
+- analytical depth
+- clarity in communication
+- consistent improvement over time
 
-This website is my space to build, experiment, improve, and share meaningful work.
+## Featured Projects
+- Startup VC Funding Dashboard  
+- Travel Recommendation System (LLM-Based)  
+- Spotify Listening Analytics Dashboard  
+
+More projects coming soon.
