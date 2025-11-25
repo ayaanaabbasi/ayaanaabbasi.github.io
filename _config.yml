@@ -1,3 +1,7 @@
 theme: jekyll-theme-cayman
-title: Mohammad Ayaan Abbasi
+title: Mohammad Abbasi
 description: Portfolio, Projects & Work
+
+navbar-links:
+  Projects: projects
+  About: about
