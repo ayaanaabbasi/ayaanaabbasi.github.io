@@ -56,51 +56,118 @@ Structuring data products that show both technical and strategic thinking
 
 <img src="/assets/img/Screenshot 2025-11-25 151714.png" alt="VC Investment Trends Dashboard Screenshot" width="100%" style="border-radius: 8px;">
 
-## 2) Travel Recommendation System (LLM-Based)
+2. 🧠 Travel LLM Recommender
 
-**Summary:**  
-Modular system comparing three approaches to generating travel recommendations using LLMs: prompting, fine-tuning, and retrieval-augmented generation (in progress).
+A modular AI system comparing Prompt Engineering, Fine-Tuning (T5), and RAG for travel recommendations.
 
-**Approach:**  
-- Structured evaluation of prompt-based models  
-- Fine-tuned a T5 model on curated travel data  
-- Began building RAG embedding/indexing pipeline  
+🔍 Problem
 
-**Key Results:**  
-- Prompting struggled with consistency  
-- Fine-tuned model showed improved relevance  
-- RAG pipeline in progress  
+Travel recommendations rely heavily on human reviews and inconsistent descriptions. The goal was to build an AI system that understands user intent and returns high-quality, personalized travel suggestions.
 
-**Deliverables:**  
-- Fine-tuned model + training scripts  
+🎯 Approach
 
-**What I Learned:**  
-- Core tradeoffs between prompting vs fine-tuning  
-- Importance of clean, differentiated training data  
+Phase 1 — Prompt Engineering
 
----
+Designed structured prompts for destination ranking
 
-## 3) Spotify Listening Analytics Dashboard
+Optimized temperature, tone, and instruction clarity
 
-**Summary:**  
-Exploratory analysis of Spotify’s audio feature dataset to understand how musical properties changed across seasons, genres, and time.
+Built reproducible templates for consistent comparisons
 
-**Approach:**  
-- Cleaned & analyzed audio features in Python  
-- Built dashboards visualizing seasonal/genre change  
-- Developed static figures for trend clarity  
+Phase 2 — Fine-Tuning a T5 Model
 
-**Key Findings:**  
-- Pop trending toward higher energy/danceability  
-- Hip-Hop displays high tempo variability  
-- R&B shows rising acoustic characteristics  
+Cleaned and reformatted 500-entry JSONL dataset
 
-**Deliverables:**  
-- Interactive dashboards  
-- EDA notebook  
+Fine-tuned a T5 model using Hugging Face Trainer + PyTorch
 
-**What I Learned:**  
-- Structuring EDA into digestible narratives  
-- Communicating findings visually to non-technical audiences  
+Controlled overfitting by reducing input/output redundancy
 
----
+Saved final model under /output/final-model/
+
+Phase 3 — Retrieval-Augmented Generation (RAG) (in progress)
+
+Chunked multi-thousand-row travel datasets
+
+Created FAISS index using MiniLM sentence embeddings
+
+Preparing inference pipeline for hybrid retrieval + generation
+
+📈 Key Insights
+
+Prompt engineering delivers fast results but lacks depth
+
+Fine-tuning improves specificity but depends on dataset quality
+
+RAG is promising for grounding recommendations in real data
+
+Travel datasets contain heavy redundancy → must dedupe
+
+🖥️ Deliverables
+
+finetune/prepare_data.py — dataset cleaning
+
+finetune/train.py — T5 fine-tuning script
+
+rag/build_index.py — FAISS vector indexing
+
+rag/query_rag.py — RAG inference logic
+
+README.md — detailed project outline
+
+🧠 What I Learned
+
+How to train transformer models on domain-specific data
+
+How vector search and embeddings power retrieval systems
+
+How to debug large indexing jobs with FAISS
+
+How to compare LLM strategies in a fair, controlled pipeline
+
+3. 🎵 Spotify Data Visualization Project
+
+Exploring global audio trends using seasonal dashboards and genre-based feature analysis.
+
+🔍 Problem
+
+Spotify tracks dozens of audio features per song (danceability, valence, tempo, acousticness, etc.). Understanding trends across seasons and genres requires structured analysis and intuitive visualization.
+
+🎯 Approach
+
+Cleaned Spotify dataset and performed EDA in Python
+
+Built two interactive dashboards:
+1. Seasonal Trends — valence, energy, danceability, acousticness
+2. Genre Evolution — tempo, speechiness, instrumentalness, liveness
+
+Designed visuals to mirror a professional BI dashboard layout
+
+Extracted patterns across Hip-Hop, Pop, and R&B over multiple years
+
+📈 Key Insights
+
+Hip-hop consistently exhibits highest speechiness + tempo
+
+Pop tracks show strong seasonal shifts in energy and danceability
+
+R&B trends show rising instrumentalness over time
+
+Seasonality strongly correlates with listener mood features (valence)
+
+🖥️ Deliverables
+
+spotify_eda.ipynb — complete EDA with insights
+
+Seasonal trends dashboard
+
+Genre evolution dashboard
+
+Cleaned dataset
+
+🧠 What I Learned
+
+How to design dashboards that communicate music analytics
+
+How to structure multi-visual layouts for non-scroll oversights
+
+How to translate feature engineering into user-friendly charts
