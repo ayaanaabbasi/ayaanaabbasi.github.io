@@ -23,7 +23,7 @@ dashboards, deployable ML systems, and models that generate real insight.
 
 ## 📫 Contact
 
-Interested in collaborating or hiring?
+Interested in collaborating?
 
 - 📧 ayaan.abbasi01@outlook.com
 - 🔗 [LinkedIn](https://linkedin.com/in/ayaan)
