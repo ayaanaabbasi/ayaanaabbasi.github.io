@@ -1,19 +1,7 @@
 
-### Data Science · AI · Analytics  
-Building real-world data products with clarity, structure, and impact.
-
-I turn complex datasets into clear insights and deployable solutions — whether it’s
-VC investment analysis, LLM-based recommendation systems, or interactive dashboards
-that explain trends without noise.
-
-My work blends **data engineering, modeling, and product thinking**, with a focus on:
-
-- End-to-end analytics projects  
-- LLM development (Prompting → Fine-Tuning → RAG)  
-- Interactive dashboards with business-level storytelling  
-- Clean architecture, reproducible pipelines, and thoughtful UI choices  
-
-If you want to see how I think, build, and communicate — start with the projects below.
+<h1 align="center">Mohammad Ayaan Abbasi</h1>
+<h3 align="center">Data Science · AI · Analytics</h3>
+<p align="center">Building real-world data products with clarity, structure, and impact.</p>
 
 ## 🔧 Featured Projects
 <p align="center">
