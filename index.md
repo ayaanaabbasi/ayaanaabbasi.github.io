@@ -4,15 +4,18 @@
 <p align="center">Building real-world data products with clarity, structure, and impact.</p>
 
 ## 🔧 Featured Projects
-<p align="center">
-  <a href="projects.html" style="display:inline-block; padding:10px 22px; background:#4C8BF5; color:#ffffff; border-radius:6px; text-decoration:none; font-weight:bold;">
-    View All Projects
-  </a>
-  &nbsp;&nbsp;
-  <a href="about.html" style="display:inline-block; padding:10px 22px; background:#444444; color:#ffffff; border-radius:6px; text-decoration:none; font-weight:bold;">
-    About Me
-  </a>
-</p>
+
+<div style="margin-top: 20px;">
+
+### 🚀 What I Build
+
+I focus on turning data and AI ideas into **production-style deliverables**:
+dashboards, deployable ML systems, and models that generate real insight.
+
+</div>
+
+<br>
+
 
 ---
 
