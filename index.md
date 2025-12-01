@@ -18,16 +18,15 @@ My work blends **data engineering, modeling, and product thinking**, with a focu
 If you want to see how I think, build, and communicate — start with the projects below.
 
 ## 🔧 Featured Projects
-
-- **[Startup VC Funding Dashboard](projects.html#startup-vc-funding-dashboard)**  
-  Streamlit dashboard analyzing 100k+ global venture capital rounds.  
-  Interactive filters, geospatial trends, and clear business insights.
-
-- **[Travel LLM Recommender](projects.html#travel-llm-recommender)**  
-  Modular AI system comparing Prompt Engineering, T5 fine-tuning, and RAG.
-
-- **[Spotify Data Visualization](projects.html#spotify-data-visualization-project)**  
-  Seasonal and genre-based dashboards analyzing global audio feature trends.
+<p align="center">
+  <a href="projects.html" style="display:inline-block; padding:10px 22px; background:#4C8BF5; color:#ffffff; border-radius:6px; text-decoration:none; font-weight:bold;">
+    View All Projects
+  </a>
+  &nbsp;&nbsp;
+  <a href="about.html" style="display:inline-block; padding:10px 22px; background:#444444; color:#ffffff; border-radius:6px; text-decoration:none; font-weight:bold;">
+    About Me
+  </a>
+</p>
 
 ---
 
