@@ -59,7 +59,6 @@ Structuring data products that show both technical and strategic thinking
 
 ## <a name="travel-llm-recommender"></a> 🧠 Travel LLM Recommender
 
-### 🧠 Travel LLM Recommender
 
 <img src="/assets/img/Screenshot 2025-12-01 002814.png" width="100%" style="border-radius:8px; margin-bottom:20px;">
 
