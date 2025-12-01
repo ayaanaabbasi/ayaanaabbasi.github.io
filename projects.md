@@ -65,6 +65,8 @@ A modular AI system comparing Prompt Engineering, Fine-Tuning (T5), and RAG for 
 
 Travel recommendations rely heavily on human reviews and inconsistent descriptions. The goal was to build an AI system that understands user intent and returns high-quality, personalized travel suggestions.
 
+<img src="/assets/img/Screenshot 2025-12-01 002814.png" width="100%" style="border-radius:8px; margin-bottom:20px;">
+
 🎯 Approach
 
 Phase 1 — Prompt Engineering
