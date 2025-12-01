@@ -1,4 +1,3 @@
-[Projects](projects)  |  [About](about)
 
 ### Data Science · AI · Analytics  
 Building real-world data products with clarity, structure, and impact.
