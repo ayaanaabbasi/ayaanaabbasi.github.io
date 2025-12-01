@@ -4,7 +4,7 @@ Below are selected analytical and AI-focused projects that demonstrate technical
 
 ---
 
-🚀 Startup VC Funding Dashboard
+## <a name="startup-vc-funding-dashboard"></a> 🚀 Startup VC Funding Dashboard
 
 Interactive data product analyzing 100k+ global VC funding rounds using Python & Streamlit.
 
@@ -56,7 +56,7 @@ Structuring data products that show both technical and strategic thinking
 
 <img src="/assets/img/Screenshot 2025-11-25 151714.png" alt="VC Investment Trends Dashboard Screenshot" width="100%" style="border-radius: 8px;">
 
-🧠 Travel LLM Recommender
+## <a name="travel-llm-recommender"></a> 🧠 Travel LLM Recommender
 
 A modular AI system comparing Prompt Engineering, Fine-Tuning (T5), and RAG for travel recommendations.
 
@@ -124,7 +124,7 @@ How to debug large indexing jobs with FAISS
 
 How to compare LLM strategies in a fair, controlled pipeline
 
-🎵 Spotify Data Visualization Project
+## <a name="spotify-data-visualization-project"></a> 🎵 Spotify Data Visualization Project
 
 Exploring global audio trends using seasonal dashboards and genre-based feature analysis.
 
