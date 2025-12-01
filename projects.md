@@ -6,6 +6,8 @@ Below are selected analytical and AI-focused projects that demonstrate technical
 
 ## <a name="startup-vc-funding-dashboard"></a> 🚀 Startup VC Funding Dashboard
 
+<img src="/assets/img/Screenshot 2025-11-25 151714.png" alt="VC Investment Trends Dashboard Screenshot" width="100%" style="border-radius: 8px;">
+
 Interactive data product analyzing 100k+ global VC funding rounds using Python & Streamlit.
 
 🔍 Problem
@@ -54,7 +56,6 @@ Balancing aesthetics with core usability principles in Streamlit
 
 Structuring data products that show both technical and strategic thinking
 
-<img src="/assets/img/Screenshot 2025-11-25 151714.png" alt="VC Investment Trends Dashboard Screenshot" width="100%" style="border-radius: 8px;">
 
 ## <a name="travel-llm-recommender"></a> 🧠 Travel LLM Recommender
 
@@ -126,6 +127,8 @@ How to compare LLM strategies in a fair, controlled pipeline
 
 ## <a name="spotify-data-visualization-project"></a> 🎵 Spotify Data Visualization Project
 
+<img src="/assets/img/Screenshot 2025-11-30 210120.png" width="100%" style="border-radius:8px;">
+
 Exploring global audio trends using seasonal dashboards and genre-based feature analysis.
 
 🔍 Problem
@@ -171,3 +174,4 @@ How to design dashboards that communicate music analytics
 How to structure multi-visual layouts for non-scroll oversights
 
 How to translate feature engineering into user-friendly charts
+
