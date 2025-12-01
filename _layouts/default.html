@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title | default: site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  </head>
+  <body>
+
+    <nav style="background:#111; padding:12px 0; text-align:center; font-size:16px;">
+      <a href="{{ '/' | relative_url }}" style="color:#fff; margin:0 14px; text-decoration:none;">Home</a>
+      <a href="{{ '/projects.html' | relative_url }}" style="color:#fff; margin:0 14px; text-decoration:none;">Projects</a>
+      <a href="{{ '/about.html' | relative_url }}" style="color:#fff; margin:0 14px; text-decoration:none;">About</a>
+    </nav>
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </main>
+
+  </body>
+</html>
