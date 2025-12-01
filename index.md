@@ -19,6 +19,13 @@ dashboards, deployable ML systems, and models that generate real insight.
 
 ---
 
-### 📫 Contact  
-**ayaan.abbasi01@outlook.com**  
-[LinkedIn](https://www.linkedin.com)  
+---
+
+## 📫 Contact
+
+Interested in collaborating or hiring?
+
+- 📧 ayaan.abbasi01@outlook.com
+- 🔗 [LinkedIn](https://linkedin.com/in/ayaan)
+
+
