@@ -1,6 +1,5 @@
 [Projects](projects)  |  [About](about)
 
-# Mohammad Ayaan Abbasi  
 ### Data Science · AI · Analytics  
 Building real-world data products with clarity, structure, and impact.
 
