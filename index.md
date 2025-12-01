@@ -3,23 +3,24 @@
 <h3 align="center">Data Science · AI · Analytics</h3>
 <p align="center">Building real-world data products with clarity, structure, and impact.</p>
 
-## 🔧 Featured Projects
+## 🔥 Featured Projects
 
-<div style="margin-top: 20px;">
+<div style="display: flex; flex-direction: column; gap: 30px;">
 
-### 🚀 What I Build
+<div style="border: 1px solid #ddd; padding: 20px; border-radius: 8px;">
+<h3>🚀 VC Investment Trends Explorer</h3>
+<p>Interactive Streamlit dashboard analyzing 100,000+ global startup funding rounds with country, industry, and year filters.</p>
+<a href="/projects/#-vc-investment-trends-explorer">View Project →</a>
+</div>
 
-I focus on turning data and AI ideas into **production-style deliverables**:
-dashboards, deployable ML systems, and models that generate real insight.
+<div style="border: 1px solid #ddd; padding: 20px; border-radius: 8px;">
+<h3>🧠 Travel LLM Recommender</h3>
+<p>Smart travel assistant leveraging LLMs via Prompt Engineering, Fine-Tuning, and RAG architecture. Work in progress.</p>
+<a href="/projects/#-travel-llm-recommender">View Project →</a>
+</div>
 
 </div>
 
-<br>
-
-
----
-
----
 
 ## 📫 Contact
 
