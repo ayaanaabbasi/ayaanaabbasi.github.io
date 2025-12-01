@@ -59,73 +59,23 @@ Structuring data products that show both technical and strategic thinking
 
 ## <a name="travel-llm-recommender"></a> 🧠 Travel LLM Recommender
 
-A modular AI system comparing Prompt Engineering, Fine-Tuning (T5), and RAG for travel recommendations.
-
-🔍 Problem
-
-Travel recommendations rely heavily on human reviews and inconsistent descriptions. The goal was to build an AI system that understands user intent and returns high-quality, personalized travel suggestions.
+### 🧠 Travel LLM Recommender
 
 <img src="/assets/img/Screenshot 2025-12-01 002814.png" width="100%" style="border-radius:8px; margin-bottom:20px;">
 
-🎯 Approach
+A smart, modular recommendation system that explores three major techniques for building a travel assistant using Large Language Models:
 
-Phase 1 — Prompt Engineering
+- 🔹 Prompt Engineering  
+- 🔹 Fine-Tuning a T5 Transformer  
+- 🔹 Retrieval-Augmented Generation (RAG) *(in progress)*  
 
-Designed structured prompts for destination ranking
+**What’s done:**
+- Built structured travel recommendation prompts  
+- Fine-tuned a T5 model with a curated dataset
+- Performed preprocessing + EDA using TripAdvisor and Europe travel sources
 
-Optimized temperature, tone, and instruction clarity
+**Tech Used:** Python · Hugging Face · LangChain · FAISS · PyTorch
 
-Built reproducible templates for consistent comparisons
-
-Phase 2 — Fine-Tuning a T5 Model
-
-Cleaned and reformatted 500-entry JSONL dataset
-
-Fine-tuned a T5 model using Hugging Face Trainer + PyTorch
-
-Controlled overfitting by reducing input/output redundancy
-
-Saved final model under /output/final-model/
-
-Phase 3 — Retrieval-Augmented Generation (RAG) (in progress)
-
-Chunked multi-thousand-row travel datasets
-
-Created FAISS index using MiniLM sentence embeddings
-
-Preparing inference pipeline for hybrid retrieval + generation
-
-📈 Key Insights
-
-Prompt engineering delivers fast results but lacks depth
-
-Fine-tuning improves specificity but depends on dataset quality
-
-RAG is promising for grounding recommendations in real data
-
-Travel datasets contain heavy redundancy → must dedupe
-
-🖥️ Deliverables
-
-finetune/prepare_data.py — dataset cleaning
-
-finetune/train.py — T5 fine-tuning script
-
-rag/build_index.py — FAISS vector indexing
-
-rag/query_rag.py — RAG inference logic
-
-README.md — detailed project outline
-
-🧠 What I Learned
-
-How to train transformer models on domain-specific data
-
-How vector search and embeddings power retrieval systems
-
-How to debug large indexing jobs with FAISS
-
-How to compare LLM strategies in a fair, controlled pipeline
 
 ## <a name="spotify-data-visualization-project"></a> 🎵 Spotify Data Visualization Project
 
